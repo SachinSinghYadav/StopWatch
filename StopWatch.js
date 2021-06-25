@@ -13,7 +13,7 @@ start.addEventListener('click',startwatch);
 const stop =document.getElementById('stop');
 stop.addEventListener('click',stopwatch);
 
-const reset=document.getElementById('reset');
+const reset=document.getElementById('reset');//Reset
 reset.addEventListener('click',resetwatch);
 
 let i=0;
